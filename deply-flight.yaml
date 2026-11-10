@@ -5,7 +5,7 @@ metadata:
   name: flight-deply                      # Name of the Deployment resource
   namespace: ingress-1                 	  # Target namespace for the Deployment
 spec:
-  replicas: 2                             # Number of Pod replicas to maintain
+  replicas: 5                             # Number of Pod replicas to maintain
   selector:
     matchLabels:
       app: flight                         # Matches labels defined in the Pod template
